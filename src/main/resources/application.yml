@@ -1,0 +1,41 @@
+boy:
+  address: 中原国家广告产业园
+  age: 22
+  birthday: '2026-08-11'
+  email: 1418504581@qq.com
+  first_name: '"John"'
+  girls:
+    age: 23
+    name: 白鹿
+  hobbyArray: 唱跳,rap,打篮球
+  name: '"张三"'
+  password: password
+  price: 9999.99
+demo:
+  my:
+    date3: '2023-02-14 10:31:58'
+logging:
+  level:
+    com:
+      by: debug
+      by.Mapper: debug
+    root: error
+mybatis:
+  mapper-locations: classpath:mapper/**.xml
+  type-aliases-package: com.by.model
+server:
+  port: 8085
+  servlet:
+    context-path: /wcj
+spring:
+  application:
+    name: order-api
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      max-active: 10
+      max-wait: 3000
+      min-idle: 2
+    password: 698759
+    url: jdbc:mysql://localhost:3306/vue207?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC&allowMultiQueries=true
+    username: Mybatis
